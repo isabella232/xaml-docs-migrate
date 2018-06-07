@@ -96,19 +96,19 @@ navigation:
 ## List your directory names and order here, like this:
 
 ## X3 Controls Start
-    controls/radautocompletebox:
+    controls/editors/radautocompletebox:
         title: RadAutoCompleteBox		
     controls/radpivotgrid:
         title: RadPivotGrid
-    controls/raddatetimepicker:
+    controls/scheduling/raddatetimepicker:
         title: RadDateTimePicker
-    controls/radcombobox:
+    controls/editors/radcombobox:
         title: RadComboBox
     controls/dragdropmanager:
         title: DragDropManager
     controls/radbusyindicator:
         title: RadBusyIndicator
-    controls/radcalendar:
+    controls/scheduling/radcalendar:
         title: RadCalendar
     controls/radcontextmenu:
         title: RadContextMenu
@@ -140,7 +140,7 @@ navigation:
         title: RadTransitionControl
     controls/radwatermarktextbox:
         title: RadWatermarkTextBox
-    controls/radwindow:
+    controls/layout/radwindow:
         title: RadWindow
     controls/radcombobox/end-user-capabilities:
         title: End-User Capabilities
@@ -151,7 +151,7 @@ navigation:
     controls/radcombobox/populating-with-data:
         title: Populating With Data
         position: 8
-    controls/radwindow/features:
+    controls/layout/radwindow/features:
         title: Features
         position: 6
     controls/radlistbox/drag-and-drop:
@@ -230,21 +230,21 @@ navigation:
 ## X2 Controls Start
     "*radbarcode":
         title: RadBarcode
-    controls/radbarcode/1d-barcode:
+    controls/data-visualization/radbarcode/1d-barcode:
         title: 1D Barcode
-    controls/radbarcode/2d-barcodes:
+    controls/data-visualization/radbarcode/2d-barcodes:
         title: 2D Barcodes
     controls/radbarcode/2d-barcodes/radbarcodepdf417:
         title: RadBarcodePDF417
     controls/radbarcode/2d-barcodes/radbarcodeqr:
         title: RadBarcodeQR
-    controls/radbook:
+    controls/layout/radbook:
         title: RadBook
-    controls/radbreadcrumb:
+    controls/navigation/radbreadcrumb:
         title: RadBreadcrumb
-    controls/radbulletgraph:
+    controls/data-visualization/radbulletgraph:
         title: RadBulletGraph
-    controls/radbuttons:
+    controls/navigation/radbuttons:
         title: RadButtons
     controls/radchart:
         title: RadChart
@@ -329,7 +329,7 @@ navigation:
         title: Financial Series
     "*scatter-series":
         title: Scatter Series    
-    controls/radcloudupload:
+    controls/file-upload-and-management/radcloudupload:
         title: RadCloudUpload
     controls/radcoloreditor:
         title: RadColorEditor
@@ -346,7 +346,7 @@ navigation:
         title: RadColorSelector
     controls/radcolorpicker/styling-and-appearance:
         title: Appearance
-    controls/raddatabar:
+    controls/data-visualization/raddatabar:
         title: RadDataBar
     controls/raddiagram:
         title: RadDiagram
@@ -428,15 +428,15 @@ navigation:
         title: Layout Groups
     controls/radlegend:
         title: RadLegend
-    controls/radmap:
+    controls/data-visualization/radmap:
         title: RadMap
-    controls/radmap/features/visualization-layer:
+    controls/data-visualization/radmap/features/visualization-layer:
         title: Visualization Layer
         position: 100
-    controls/radmap/features/providers:
+    controls/data-visualization/radmap/features/providers:
         title: Providers
         position: 101
-    controls/radmap/features/information-layer:
+    controls/data-visualization/radmap/features/information-layer:
         title: Information Layer
         position: 102
     controls/radmaskedinput:
@@ -566,16 +566,16 @@ navigation:
 ## Centaur Controls Start
     "*radimageeditor":
         title: RadImageEditor
-    controls/radimageeditor/changes-and-backward-compatibility:
+    controls/media/radimageeditor/changes-and-backward-compatibility:
         title: Changes and Backward Compatibility
         position: 2	
-    controls/radimageeditor/features:
+    controls/media/radimageeditor/features:
         title: Features
         position: 4
-    controls/radimageeditor/tools:
+    controls/media/radimageeditor/tools:
         title: Tools
         position: 5
-    controls/radimageeditor/how-to:
+    controls/media/radimageeditor/how-to:
         title: How To
         position: 6		
     
@@ -764,20 +764,37 @@ navigation:
         title: RadSpreadStreamProcessing       
 ## Centaur Controls End
 
+    controls/data-management:
+        title: Data Management
+    controls/data-visualization:
+        title: Data Visualization
+    controls/editors:
+        title: Editors
+    controls/file-upload-and-management:
+        title: File Upload & Management
+    controls/layout:
+        title: Layout
+    controls/media:
+        title: Media
+    controls/navigation:
+        title: Navigation
+    controls/scheduling:
+        title: Scheduling
+
 ## X1 Controls Start
-    controls/radcalculator:
+    controls/editors/radcalculator:
         title: RadCalculator
-    controls/radcalculator/style-and-templates:
+    controls/editors/radcalculator/style-and-templates:
         title: Style and Templates
-    controls/radcarousel:
+    controls/layout/radcarousel:
         title: RadCarousel
-    controls/radcarousel/changes-and-backward-compability:
+    controls/layout/radcarousel/changes-and-backward-compability:
         title: Changes and Backward Compability 
-    controls/radcarousel/using-radcarousel:
+    controls/layout/radcarousel/using-radcarousel:
         title: Using RadCarousel
-    controls/radcarousel/using-radcarouselpanel:
+    controls/layout/radcarousel/using-radcarouselpanel:
         title: Using RadCarouselPanel 
-    controls/radcarousel/styling-and-appearance:
+    controls/layout/radcarousel/styling-and-appearance:
         title: Styling and Appearance
     controls/radcollectionnavigator:
         title: RadCollectionNavigator
@@ -785,19 +802,19 @@ navigation:
         title: Changes and Backward Compability 
     controls/raddatafilter:
         title: RadDataFilter
-    controls/raddataform:
+    controls/data-management/raddataform:
         title: RadDataForm
     controls/raddataform/localization:
         title: Localization
     controls/raddataform/validation:
         title: Validation
-    controls/raddatapager:
+    controls/data-management/raddatapager:
         title: RadDataPager
-    controls/raddatapager/changes-and-backward-compability:
+    controls/data-management/raddatapager/changes-and-backward-compability:
         title: Changes and Backward Compability
-    controls/radfiledialogs:
+    controls/file-upload-and-management/radfiledialogs:
         title: RadFileDialogs
-    controls/radfiledialogs/features:
+    controls/file-upload-and-management/radfiledialogs/features:
         title: Features
         position: 6
     controls/radgridview:
@@ -948,8 +965,8 @@ navigation:
     getting-started:
       title: Getting Started
       position: 20
-    styles-and-appearance:
-      title: Styles and Appearance
+    styling-and-appearance:
+      title: Themes & Styles
       position: 23  
     distribution-and-licensing:
       title: Distribution and Licensing
